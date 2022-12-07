@@ -1,0 +1,89 @@
+/* flex layout */
+
+.d-flex {
+    display: flex;
+}
+
+.d-f-row-center {
+    justify-content: center;
+}
+
+.d-f-row-bet {
+    justify-content: space-between;
+}
+
+.d-f-col-center {
+    align-items: center;
+}
+
+
+/* layout size */
+
+.w50 {
+    width: 50%;
+}
+
+
+/* block layout */
+
+.t-c {
+    text-align: center;
+}
+
+
+/* text color */
+
+.t-main-color {
+    color: #101010;
+}
+
+.t-tips-color {
+    color: #999;
+}
+
+
+/* font-size */
+
+.f20 {
+    font-size: 20px;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+
+/* scrollbar style */
+
+.scrollbar::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 8px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 15px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #c0c7cc;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #ededed;
+}
